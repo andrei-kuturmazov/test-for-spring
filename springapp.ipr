@@ -101,6 +101,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/andrei/spring/app/Music.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/andrei/spring/app/MusicPlayer.java">
           <value>
             <set />

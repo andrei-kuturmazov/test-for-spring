@@ -7,9 +7,8 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean id="testBean"
-          class="andrei.spring.app.TestBean">
-        <constructor-arg value="My first spring text"/>
+    <bean id="musicBean"
+          class="andrei.spring.app.ClassicalMusic">
     </bean>
 
 </beans>
