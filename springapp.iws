@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="802fd03a-1eee-4527-9d4d-524be24aa8e2" name="Default Changelist" comment="" />
+    <list default="true" id="802fd03a-1eee-4527-9d4d-524be24aa8e2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/springapp.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/springapp.ipr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springapp.iws" beforeDir="false" afterPath="$PROJECT_DIR$/springapp.iws" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +18,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +29,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1Y1sZgC8GE0E7Th94uR9gaSqgZj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -70,11 +77,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582121491876</updated>
-      <workItem from="1582121493618" duration="1229000" />
+      <workItem from="1582121493618" duration="1955000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

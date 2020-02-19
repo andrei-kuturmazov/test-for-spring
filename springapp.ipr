@@ -85,10 +85,28 @@
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+  </component>
   <component name="issues">
     <option name="index">
       <map>
         <entry key="$PROJECT_DIR$/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/andrei/spring/app/ClassicalMusic.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/andrei/spring/app/MusicPlayer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/andrei/spring/app/RockMusic.java">
           <value>
             <set />
           </value>
