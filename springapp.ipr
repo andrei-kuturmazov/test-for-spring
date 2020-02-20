@@ -53,8 +53,8 @@
         <module name="alishev spring" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="alishev spring" target="1.7" />
+    <bytecodeTargetLevel target="11">
+      <module name="alishev spring" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="Encoding">
@@ -111,6 +111,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/andrei/spring/app/PunkMusic.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/java/andrei/spring/app/RockMusic.java">
           <value>
             <set />
@@ -127,6 +132,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/musicPlayer.properties">
           <value>
             <set />
           </value>

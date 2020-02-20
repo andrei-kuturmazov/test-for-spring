@@ -7,13 +7,26 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <bean id = "musicBean"
+
+    <bean id = "classicalBean"
           class = "andrei.spring.app.ClassicalMusic">
     </bean>
+    <bean id = "rockBean"
+          class = "andrei.spring.app.RockMusic">
+    </bean>
+    <bean id = "punkBean"
+          class = "andrei.spring.app.PunkMusic">
+    </bean>
+
     <bean id = "musicPlayer" class = "andrei.spring.app.MusicPlayer">
-        <property name = "music" ref = "musicBean" />
-        <property name = "name" value = "First musicPlayer"/>
-        <property name = "volume" value ="10"/>
+        <constructor-arg>
+            <list>
+                <ref bean = "classicalBean"/>
+                <ref bean = "rockBean"/>
+                <ref bean = "punkBean"/>
+            </list>
+        </constructor-arg>
+
     </bean>
 
 </beans>

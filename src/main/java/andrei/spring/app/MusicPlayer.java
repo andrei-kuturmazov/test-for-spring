@@ -5,16 +5,24 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Setter
 @Getter
 public class MusicPlayer {
-    private Music music;
-    private String name;
-    private int volume;
+
+    private List<Music> musicList = new ArrayList<>();
 
     public void playMusic() {
-        System.out.println("Playing " + music.getSong());
+        for (Music music : musicList) {
+            System.out.println(music.getSong());
+        }
+
+        /*musicList.stream()
+                .map(p -> p.getSong())
+                .forEach(System.out::println);*/
     }
 }
