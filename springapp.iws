@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="802fd03a-1eee-4527-9d4d-524be24aa8e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/andrei/spring/app/PunkMusic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alishev spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/alishev spring.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springapp.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/springapp.ipr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springapp.iws" beforeDir="false" afterPath="$PROJECT_DIR$/springapp.iws" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/andrei/spring/app/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/andrei/spring/app/MusicPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/andrei/spring/app/SpringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/andrei/spring/app/SpringTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/musicPlayer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/musicPlayer.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582121491876</updated>
       <workItem from="1582121493618" duration="2799000" />
-      <workItem from="1582201688455" duration="5009000" />
+      <workItem from="1582201688455" duration="5332000" />
     </task>
     <servers />
   </component>

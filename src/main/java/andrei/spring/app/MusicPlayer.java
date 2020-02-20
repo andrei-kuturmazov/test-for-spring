@@ -17,12 +17,8 @@ public class MusicPlayer {
     private List<Music> musicList = new ArrayList<>();
 
     public void playMusic() {
-        for (Music music : musicList) {
-            System.out.println(music.getSong());
-        }
-
-        /*musicList.stream()
+        musicList.stream()
                 .map(p -> p.getSong())
-                .forEach(System.out::println);*/
+                .forEach(System.out::println);
     }
 }
