@@ -10,9 +10,10 @@
     <bean id = "musicBean"
           class = "andrei.spring.app.ClassicalMusic">
     </bean>
-    <bean id = "musicPlayer"
-          class = "andrei.spring.app.MusicPlayer">
+    <bean id = "musicPlayer" class = "andrei.spring.app.MusicPlayer">
         <property name = "music" ref = "musicBean" />
+        <property name = "name" value = "First musicPlayer"/>
+        <property name = "volume" value ="10"/>
     </bean>
 
 </beans>
