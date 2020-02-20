@@ -8,11 +8,11 @@
         http://www.springframework.org/schema/context/spring-context.xsd">
 
     <bean id = "musicBean"
-          class="andrei.spring.app.RockMusic">
+          class = "andrei.spring.app.ClassicalMusic">
     </bean>
-    <bean id = "musicPlayer" class = "andrei.spring.app.MusicPlayer">
-        <constructor-arg ref="musicBean"/>
+    <bean id = "musicPlayer"
+          class = "andrei.spring.app.MusicPlayer">
+        <property name = "music" ref = "musicBean" />
     </bean>
-
 
 </beans>
