@@ -1,6 +1,7 @@
 package andrei.spring.app;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 
@@ -8,12 +9,11 @@ import org.springframework.stereotype.Component;
 public class MusicPlayer {
 
     @Autowired
-    private ClassicalMusic classicalMusic;
-    @Autowired
-    private RockMusic rockMusic;
+    @Qualifier("rockMusic")
+    private Music music;
 
     public void playMusic() {
-        System.out.println(String.format("Playing %s and %s", classicalMusic.getSong(), rockMusic.getSong() ));
+        System.out.println("Playing " + music.getSong());
     }
 
 }
