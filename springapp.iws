@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="802fd03a-1eee-4527-9d4d-524be24aa8e2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/springapp.iws" beforeDir="false" afterPath="$PROJECT_DIR$/springapp.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/andrei/spring/app/ClassicalMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/andrei/spring/app/ClassicalMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/andrei/spring/app/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/andrei/spring/app/Music.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/andrei/spring/app/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/andrei/spring/app/MusicPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/andrei/spring/app/PunkMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/andrei/spring/app/PunkMusic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/andrei/spring/app/RockMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/andrei/spring/app/RockMusic.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +88,7 @@
       <workItem from="1582201688455" duration="6649000" />
       <workItem from="1582286204743" duration="1527000" />
       <workItem from="1582288790696" duration="40000" />
-      <workItem from="1582524410877" duration="5690000" />
+      <workItem from="1582524410877" duration="6503000" />
     </task>
     <servers />
   </component>
