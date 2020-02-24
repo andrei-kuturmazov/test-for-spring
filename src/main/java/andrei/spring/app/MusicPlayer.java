@@ -1,18 +1,19 @@
 package andrei.spring.app;
 
 import lombok.AllArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
-import java.util.List;
 
+@Component
 @AllArgsConstructor
 public class MusicPlayer {
 
-    private List<Music> musicList;
+    @Autowired
+    private ClassicalMusic classicalMusic;
 
     public void playMusic() {
-        musicList.stream()
-                .map(p -> p.getSong())
-                .forEach(System.out::println);
+        System.out.println("Playing " + classicalMusic.getSong());
     }
 
 }
