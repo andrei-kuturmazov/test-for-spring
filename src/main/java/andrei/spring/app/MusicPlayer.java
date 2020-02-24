@@ -1,19 +1,19 @@
 package andrei.spring.app;
 
-import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 
 @Component
-@AllArgsConstructor
 public class MusicPlayer {
 
     @Autowired
     private ClassicalMusic classicalMusic;
+    @Autowired
+    private RockMusic rockMusic;
 
     public void playMusic() {
-        System.out.println("Playing " + classicalMusic.getSong());
+        System.out.println(String.format("Playing %s and %s", classicalMusic.getSong(), rockMusic.getSong() ));
     }
 
 }
