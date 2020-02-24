@@ -6,7 +6,7 @@ public class SpringTest {
     public static void main(String... args) {
 
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
-        Music music = context.getBean("classicalBean", Music.class);
+        Music music = context.getBean("classicalMusic", Music.class);
         System.out.println(music.getSong());
         context.close();
     }
