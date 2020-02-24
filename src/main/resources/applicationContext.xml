@@ -10,6 +10,7 @@
 
     <bean id="classicalBean"
           class="andrei.spring.app.ClassicalMusic"
+          factory-method="getClassicalMusic"
           init-method="doInit"
           destroy-method="doDestroy">
     </bean>
